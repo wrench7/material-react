@@ -19,6 +19,7 @@ let {
 let DesktopGutter = Styles.Spacing.desktopGutter;
 
 const UserCard = require('./cards/userCard');
+const ListCard = require('./cards/listCard');
 
 const MainContent = React.createClass({
 
@@ -35,6 +36,7 @@ const MainContent = React.createClass({
         <UserCard />
         <UserCard />
         <UserCard />
+        <ListCard />
       </div>
     );
   },
